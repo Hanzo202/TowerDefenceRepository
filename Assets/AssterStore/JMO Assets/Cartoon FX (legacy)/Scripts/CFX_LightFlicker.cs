@@ -8,7 +8,7 @@ using System.Collections;
 [RequireComponent(typeof(Light))]
 public class CFX_LightFlicker : MonoBehaviour
 {
-	// Loop flicker effect
+	// Loop flicker _buildingParticle
 	public bool loop;
 	
 	// Perlin scale: makes the flicker more or less smooth

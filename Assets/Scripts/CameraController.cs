@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class CameraController : MonoBehaviour
 {
@@ -30,7 +26,7 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
-        if (buildTower.isBuilding)
+        if (buildTower.IsBuilding)
         {
             return;
         }

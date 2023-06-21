@@ -12,24 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 4
+  version: 7
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BeamMaterial
   m_Shader: {fileID: -6465566751694194690, guid: d6930c927f809be49b2494dab72fa28a, type: 3}
-  m_ShaderKeywords: _ _CFXR_DITHERED_SHADOWS_OFF _CFXR_GLOW_POW_P0 _CFXR_OVERLAYBLEND_RGBA
-    _CFXR_OVERLAYTEX_OFF _GLOSSYREFLECTIONS_OFF
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _
+  - _CFXR_DITHERED_SHADOWS_OFF
+  - _CFXR_GLOW_POW_P0
+  - _CFXR_OVERLAYBLEND_RGBA
+  - _CFXR_OVERLAYTEX_OFF
+  - _GLOSSYREFLECTIONS_OFF
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -173,6 +182,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_0b5cf2335b3f43c19e198d9a46bc3c77: 0.1
     - Vector1_2e4871ec82e54bcebccd7d841960148a: 2
@@ -235,6 +245,7 @@ Material:
     - _OPACITY: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _REFLECTIONS_IOR: 1.52
     - _REFLECTIONS_ROUGHNESS: 1

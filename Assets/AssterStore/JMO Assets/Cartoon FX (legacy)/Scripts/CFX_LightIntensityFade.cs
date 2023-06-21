@@ -8,10 +8,10 @@ using System.Collections;
 [RequireComponent(typeof(Light))]
 public class CFX_LightIntensityFade : MonoBehaviour
 {
-	// Duration of the effect.
+	// Duration of the _buildingParticle.
 	public float duration = 1.0f;
 	
-	// Delay of the effect.
+	// Delay of the _buildingParticle.
 	public float delay = 0.0f;
 	
 	/// Final intensity of the light.
@@ -20,7 +20,7 @@ public class CFX_LightIntensityFade : MonoBehaviour
 	// Base intensity, automatically taken from light parameters.
 	private float baseIntensity;
 	
-	// If <c>true</c>, light will destructs itself on completion of the effect
+	// If <c>true</c>, light will destructs itself on completion of the _buildingParticle
 	public bool autodestruct;
 	
 	private float p_lifetime = 0.0f;

@@ -86,10 +86,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,6 +130,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -140,6 +143,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -152,6 +156,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -164,6 +169,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -641,9 +673,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      2112.w026.n002.1189B.p1.1189_0: -3471893433537961517
+      2112.w026.n002.1189B.p1.1189_1: 8558103488154548578
+      2112.w026.n002.1189B.p1.1189_10: -8763115930100372338
+      2112.w026.n002.1189B.p1.1189_11: -2271659581943323400
+      2112.w026.n002.1189B.p1.1189_12: 5095707895239772049
+      2112.w026.n002.1189B.p1.1189_13: 7180632017167686171
+      2112.w026.n002.1189B.p1.1189_14: 6056181626486221304
+      2112.w026.n002.1189B.p1.1189_15: -610903634893751062
+      2112.w026.n002.1189B.p1.1189_16: 4540273949155364464
+      2112.w026.n002.1189B.p1.1189_17: 7299156201931745265
+      2112.w026.n002.1189B.p1.1189_18: 3486012380160888593
+      2112.w026.n002.1189B.p1.1189_19: -2173018541858246268
+      2112.w026.n002.1189B.p1.1189_2: -6202551733917963561
+      2112.w026.n002.1189B.p1.1189_20: -5644324908423880040
+      2112.w026.n002.1189B.p1.1189_21: 2827617977674824559
+      2112.w026.n002.1189B.p1.1189_3: 3112006725608513642
+      2112.w026.n002.1189B.p1.1189_4: -2913516743213115464
+      2112.w026.n002.1189B.p1.1189_5: -8520222671431671061
+      2112.w026.n002.1189B.p1.1189_6: 9166104366810799278
+      2112.w026.n002.1189B.p1.1189_7: 8109759156283874400
+      2112.w026.n002.1189B.p1.1189_8: 7489994778580063611
+      2112.w026.n002.1189B.p1.1189_9: 1151287896124072287
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -8,6 +8,8 @@ TagManager:
   - FxTemporaire
   - Boss
   - Road
+  - enemyBug
+  - CoinImage
   layers:
   - Default
   - TransparentFX

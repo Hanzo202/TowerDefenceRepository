@@ -146,7 +146,7 @@ public class CFX_Demo_New : MonoBehaviour
 	}
 	
 	//-------------------------------------------------------------
-	// UI
+	// GameUI
 	
 	private void UpdateUI()
 	{
